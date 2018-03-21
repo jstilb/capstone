@@ -1,0 +1,335 @@
+/*Universal Styles*/
+
+html {
+  font-size: 16px;
+  font-family: Helvetica;
+  background-color: white;
+  max-width: 1245px;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.25rem;
+  color: #404040;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: #404040;
+}
+
+br {
+  height: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.large-image {
+  height: auto;
+  padding: 32px 24px 32px 24px;
+}
+
+/*Header*/
+
+header {
+  display: flex;
+  height: 64px;
+  width: 100%;
+  max-width: 1245px;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  margin-top: 0;
+}
+
+span #grey {
+  color: grey;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 2rem;
+}
+nav ul {
+  position: relative;
+  left: 700px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 16px;
+}
+
+/*Banner*/
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: lightgrey;
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 60px;
+}
+
+.banner .large-image {
+  padding: 32px 24px 32px 24px;
+  width: 60%;
+}
+
+.banner .copy {
+  display: flex;
+  flex-flow: column;
+  width: 295px;
+}
+
+.banner .copy h1 {
+  line-height: 2.5rem;
+}
+
+.banner .copy h2 {
+  line-height: 2rem;
+}
+
+.btn {
+  background-color: #404040;
+  color: white;
+  height: 18px;
+  padding: 8px 90px;
+}
+
+/*Information*/
+
+.information {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.information .main {
+  width: 60%;
+  height: auto;
+}
+
+.information .main .copy {
+  margin-top: 32px;
+  padding-left: 24px;
+  width: 90%;
+}
+
+.information .main .copy .author {
+  padding-bottom: 32px;
+}
+
+.information .secondary {
+  display: flex;
+  max-width: 40%;
+  position: relative;
+  left: 30px;
+  top: 16px;
+  border-left: solid;
+  border-width: thin;
+  border-color: lightgrey;
+  display: flex;
+  flex-flow: column;
+}
+
+.information .large-image {
+  width: 100%;
+}
+
+.information .secondary .small-image {
+  width: 35%;
+  height: auto;
+  max-height: 170px;
+}
+
+.information .secondary .copy {
+  width: 65%;
+  padding-left: 15px;
+  line-height: 1.5rem;
+}
+
+.information .container {
+  padding: 16px 16px;
+  display: flex;
+  max-width: 435px;
+}
+
+.guest {
+  background-color: lightgrey;
+}
+.guest .copy {
+  background-color: lightgrey;
+}
+
+/*Courses*/
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  justify-content: center;
+  background-color: lightgrey;
+  width: 100%;
+}
+
+.courses .title {
+  padding-top: 32px;
+}
+
+.courses .containers {
+  display: inline-flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-content: center;
+  margin: 32px 72px 32px 72px;
+  width: 95%;
+}
+
+.courses .containers .container {
+  display: block;
+  margin: 32px;
+  max-width: 300px;
+  max-height: 250px;
+}
+.container .copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 24px;
+  line-height: 1.15rem;
+}
+
+.courses .container img {
+  max-width: 300px;
+  height: auto;
+}
+
+.container .copy p {
+  padding-top: 8px;
+}
+
+.computer-art .copy {
+  padding-bottom: 8px;
+}
+
+/*Thesis*/
+
+.thesis {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.thesis .title {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.thesis .thesis-content {
+  display: flex;
+  width: 100%;
+}
+
+.thesis .main {
+  width: 60%;
+  height: auto;
+  padding-left: 32px;
+  padding-right: 24px;
+}
+
+.thesis .main .copy {
+  width: 90%;
+  line-height: 1.25rem;
+}
+
+.thesis .main .copy h2 {
+  padding-bottom: 8px;
+}
+
+.thesis .secondary {
+  display: flex;
+  width: 40%;
+  border-left: solid;
+  border-width: thin;
+  border-color: lightgrey;
+  display: flex;
+  flex-flow: column;
+}
+
+.thesis video {
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+.thesis .secondary .small-image {
+  width: 35%;
+  height: auto;
+  max-height: 170px;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.thesis .secondary .copy {
+  width: 65%;
+  line-height: 1.5rem;
+  justify-content: center;
+}
+
+.thesis .container {
+  display: flex;
+}
+
+
+/*Footer*/
+
+.footer {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  max-width: 1245px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding-top: 16px;
+  padding-left: 24px;
+  border-top: solid;
+  border-width: thin;
+  border-color: lightgrey;
+}
+
+.footer ul {
+  position: relative;
+  left: 1100px;
+  bottom: 17px;
+}
+
+.footer li {
+  display: inline;
+  margin-right: 16px;
+}
